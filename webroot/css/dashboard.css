@@ -1,0 +1,80 @@
+.droppable-area {
+    min-height: 100px;
+    list-style-type: none;
+    margin: 0;
+    float: left;
+    padding-top: 6px;
+    padding-right: 3px;
+    padding-left: 3px;
+    width: 100%;
+}
+
+.saved-searches-area {
+    margin-bottom: 50px;
+}
+
+.saved-searches-title {
+    margin-top: 50px;
+}
+
+.droppable-area .droppable {
+    cursor: move;
+    padding-right: 3px;
+    padding-left: 3px;
+}
+
+.droppable-area.savetrue .droppable {
+    float: none;
+    width: 100%;
+}
+
+.droppable-area .droppable .header {
+    color: #fff;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    background-color: #444;
+    font-size: 16px;
+}
+
+.droppable-area .droppable .body {
+    padding-top: 6px;
+    padding-bottom: 50px;
+    background-color: #ccc;
+    color: #555;
+    margin-bottom: 6px;
+}
+
+.droppable-area .sort-highlight {
+    float: left;
+    width: 50%;
+}
+
+@media (min-width: 768px) {
+    .droppable-area .sort-highlight {
+        width: 33.33333333%;
+    }
+}
+
+@media (min-width: 992px) {
+    .droppable-area .sort-highlight {
+        width: 25%;
+    }
+}
+
+@media (min-width: 1200px) {
+    .droppable-area .sort-highlight {
+        width: 16.66666667%;
+    }
+}
+
+.droppable-area.savetrue .sort-highlight {
+    float: none;
+    width: 100%;
+}
+
+.ui-sortable-helper {
+    opacity: 0.25;
+    background-color: #ccc !important;
+    color: #555 !important;
+    height: auto !important;
+}

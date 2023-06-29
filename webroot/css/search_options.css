@@ -1,0 +1,19 @@
+#availableColumns,
+#displayColumns {
+    max-height: 150px;
+    overflow: auto;
+    list-style-type: none;
+    border: 2px dashed #ddd;
+    padding: 5px;
+}
+
+#availableColumns li,
+#displayColumns li {
+    margin: 2px;
+    padding: 4px 8px;
+    width: auto;
+    background-color: #eee;
+    border: 1px solid #ccc;
+    cursor: pointer;
+    font-size: 12px;
+}

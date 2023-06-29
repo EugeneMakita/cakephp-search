@@ -1,0 +1,25 @@
+.save-search-form + .save-search-form {
+    margin-top: 5px;
+}
+
+.saved-search-delete-form {
+    margin-left: 3px;
+}
+
+.saved-criteria-form {
+    display: inline;
+}
+
+.saved-criteria-form .btn-link {
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+.search-form .form-group {
+    margin-bottom: 10px;
+}
+
+.search-form .form-group .form-group {
+    margin: 0;
+}
