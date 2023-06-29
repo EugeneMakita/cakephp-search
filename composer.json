@@ -1,5 +1,5 @@
 {
-    "name": "qobo/cakephp-search",
+    "name": "eugenec138/cakephp-search",
     "description": "Search plugin for CakePHP",
     "type": "cakephp-plugin",
 	"license": "MIT",
@@ -12,8 +12,8 @@
 		}
 	],
     "require": {
-        "qobo/cakephp-roles-capabilities": "^14.0",
-        "qobo/cakephp-utils": "^6.0"
+        "eugenec138/cakephp-roles-capabilities": "^1.0.4",
+        "eugenec138/cakephp-utils": "^1.0.3"
     },
     "require-dev": {
         "phpunit/phpunit": "^5.0",
